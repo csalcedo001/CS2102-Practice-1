@@ -49,7 +49,9 @@
 
 Lets modify the classic merge sort algorithm a little bit. What happens if instead of splitting the array in 2 parts we divide it in 3? You can assume that exists a three-way merge subroutine. What is the overall asymptotic running time of this algorithm?\\
 
-In this version of merge sort, the recursive step of the algorithm would be called 3 times and then the sub-arrays would be merged to form the sorted original array. With this in mind, the runtime of merge sort can be calculated as follows:
+\textbf{Answer:}\\
+
+In this version of merge sort, the recursive step of the algorithm would be called 3 times and then the sorted sub-arrays would be merged to form the sorted original array. With this in mind, the runtime of merge sort can be calculated as follows:
 
 \[T(n) = 3 T(n / 3) +  \Theta(n)\]
 
